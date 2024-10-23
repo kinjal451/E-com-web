@@ -35,7 +35,7 @@ const Home = () => {
             <div className='container'>
                 <div className='d-flex my-3 justify-content-between'>
                     <div>
-                        <h3>Product list</h3>
+                        <h3>Mobile list</h3>
                     </div>
                     <div>
                         <Link to="/order"><button className='btn btn-primary'>Order  {reduxcart.cartData.length != 0 && reduxcart.cartData.length} </button></Link>
